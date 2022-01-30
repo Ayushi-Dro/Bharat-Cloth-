@@ -1,0 +1,170 @@
+/*The Navbar*/
+.navbar{
+	background-color: #FFFCDC;
+	position: fixed;
+}
+.logo{
+	border-radius: 100%;
+	margin-left: 50px;
+}
+.navbar-brand:visited{
+	color: green;
+}
+.nav-link{
+   color: green;
+}
+.nav-link:hover{
+   color: grey;
+}
+.nav-link:visited{
+   color: green;
+}
+.dropdown-item{
+	color: grey;
+}
+/*The title Section*/
+#title-2{
+	padding: 7% 15% 1%;
+	background-color: #FFFCDC;
+	font-family: sacramento;
+	color: green;
+}
+.title-heading{
+	font-size: 50px;
+}
+.title-image{
+	height: 400px;
+	width: 250px;
+	position: relative;
+	left: 70px;
+
+}
+.moving-Text{
+	position: relative;
+	bottom: 50px;
+}
+
+@media (max-width: 1000px){
+    .title-image{
+	   border-radius: 100%;
+	   width: 400px;
+    }
+}
+/*The About Us Section*/
+#AboutUs{
+	margin: 100px 70px 100px 70px;
+	line-height: 1.5;
+	color: grey;
+	font-family: Nanum gothic, sans-serif;
+}
+
+.Branches{
+	margin: 60px auto 110px auto;
+}
+.tree-img{
+	float: left;
+	border-radius: 100%;
+	height: 150px;
+	margin-right: 70px;
+}
+
+.clothes-img{
+	float: right;
+	border-radius: 100%;
+	height: 150px;
+	margin-left: 70px;
+}
+/*Items section*/
+#items{
+	margin: 70px 20px 70px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: Open Sans, sans-serif;
+}
+
+/*Brands Section*/
+
+#brands{
+	background-color: #FFFCDC;
+	font-family: Ubuntu, sans-serif;
+	padding: 5% 15%;
+	color: green;
+}
+
+.brands-heading{
+	position: relative;
+	bottom: 50px;
+}
+
+#brands h2{
+	font-style: italic;
+}
+
+.indi{
+	border-radius: 100%;
+	border-style: none;
+	position: relative;
+	top: 50px;
+	color: green;
+	border: 2px;
+}
+.carousel-control-prev-icon{
+	position: relative;
+	right: 100px;
+	color: green;
+	border: 2px;
+}
+.carousel-control-next-icon{
+	position: relative;
+	left: 70px;
+	color: green;
+	border: 2px;
+	border-color: black;
+}
+
+@media (max-width: 1000px){
+	.brands-heading{
+	   position: relative;
+	   top: 10px;
+}
+}
+/*The services Section*/
+
+#services{
+	margin: 100px 50px 100px 50px;
+	font-family: Ubuntu, sans-serif;
+	color: grey;
+	text-align: center;
+}
+.services-img{
+	border-radius: 100%;
+	margin-bottom: 30px;
+}
+.services-heading{
+	margin-bottom: 40px;
+}
+
+/*The Contact Section*/
+
+#contact{
+	margin-bottom: 50px;
+	font-family: Montserrat;
+	padding: 7% 15% 1%;
+	color: green;
+	background-color: #FFFCDC;
+}
+#contact .btn-lg.btn-dark{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+/*The Footer Section*/
+
+#footer{
+	margin-bottom: 50px;
+}
+
+.icon{
+	margin-right: 30px;
+}
